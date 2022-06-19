@@ -1,0 +1,19 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10;
+}
+
+header img {
+    width: 200px;
+    display: block;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    font-size: 12px;
+}

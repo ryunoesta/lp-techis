@@ -1,0 +1,81 @@
+/* フォントの設定 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+html, body {
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    height: 70px;
+    margin: auto;
+}
+
+.logo img {
+    width: 170px;
+    height: auto;
+}
+
+.menu-pc {
+    display: flex;
+    align-items: center;
+}
+
+.menu-pc li {
+    margin: 0 30px;
+}
+
+.menu-pc a {
+    font-weight: bold;
+}
+
+.menu-pc li:last-child {
+    margin-right: 0;
+}
+
+.menu-pc li:last-child a {
+    display: block;
+    color: #fff;
+    background: #00abae;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+/* fv */
+.front-fv {
+    position: relative;
+    height: 400px;
+}
+
+.front-fv h2 {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 20%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+/* footer */
+.footer {
+    padding: 50;
+    background: #303030;
+}
+
+.footer p {
+    height: 300px;
+    padding: 100px 0; /* paddingにautoはない */
+    margin: auto;
+    text-align: center;
+}
+

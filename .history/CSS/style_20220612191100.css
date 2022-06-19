@@ -1,0 +1,74 @@
+/* フォントの設定 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+html, body {
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    height: 70px;
+    margin: auto;
+}
+
+.logo img {
+    width: 170px;
+    height: auto;
+}
+
+.menu-pc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    height: 100%;
+    padding: 15px 0;
+    display: flex;
+}
+
+header ul li {
+    font-size: 14px;
+    margin: auto 25px;
+}
+
+/* common */
+.common-btn {
+    display: block;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background: #00abae;
+    text-align: center;
+    padding: 7px 0;
+}
+
+.common-btn a {
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/* fv */
+.fv {
+    position: relative;
+}
+
+.fv h1 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 50px;
+    line-height: 2;
+}

@@ -1,0 +1,13 @@
+header {
+    width: 100%;
+    display: ;
+}
+
+header img {
+    display: block;
+}
+
+header ul {
+    display: flex;
+
+}

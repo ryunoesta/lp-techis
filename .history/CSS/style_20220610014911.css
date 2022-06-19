@@ -1,0 +1,18 @@
+header {
+    width: 100%;
+    display: flex;
+}
+
+header img {
+    width: 300px;
+    display: block;
+}
+
+header ul {
+    display: flex;
+    ju
+}
+
+header ul li {
+    font-size: 12px;
+}

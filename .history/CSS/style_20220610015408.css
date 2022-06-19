@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+header img {
+    width: 200px;
+    display: block;
+}
+
+header ul {
+    height: 100%;
+    padding: 30;
+    display: flex;
+}
+
+header ul li {
+    font-size: 16px;
+    margin: auto 25px;
+}

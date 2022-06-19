@@ -1,0 +1,173 @@
+/* フォントの設定 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+html, body {
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    height: 70px;
+    margin: auto;
+}
+
+.logo img {
+    width: 170px;
+    height: auto;
+}
+
+.menu-pc {
+    display: flex;
+    align-items: center;
+}
+
+.menu-pc li {
+    margin: 0 30px;
+}
+
+.menu-pc a {
+    font-weight: bold;
+}
+
+.menu-pc li:last-child {
+    margin-right: 0;
+}
+
+.menu-pc li:last-child a {
+    display: block;
+    color: #fff;
+    background: #00abae;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+/* footer */
+.footer {
+    padding: 50px;  /* paddingにautoはない */
+    background: #303030;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+}
+
+/* fv */
+.front-fv {
+    position: relative;
+    height: 400px;
+}
+
+.front-fv h2 {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 20%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+/* common */
+.front-common__title {
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    color: #00abae;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.front-common__title::before {
+    position: absolute;
+    bottom: 0;
+    left 
+    content: "";
+    border-bottom: 3px solid #00abae;
+    width: 80px;
+}
+
+/* about */
+.front-about {
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.front-about__list {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.front-about__item {
+    width: 50%;
+}
+
+.front-about__item h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.front-about__item p {
+    margin-top: 20px;
+}
+
+.front-about__item:first-child{
+    margin-right: 30px;
+}
+
+.front-about__item:last-child{
+    margin-left: 30px;
+}
+
+/* service */
+.front-service {
+    padding: 50px 0;
+    background: #eef8fa;
+}
+
+.front-service__inner {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.front-service__list {
+    display: flex;
+}
+
+.front-service__item {
+    width: 33.333%;
+    margin: 0 10px;
+    background: #fff;
+    box-shadow: 0 0 5px 5px rgb(0 0 0 / 3%);
+} 
+
+.front-service__item img {
+    width: 100%;
+    height: auto;
+} 
+
+.front-service__item h3 {
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.front-service__item p {
+    padding: 0 20px 40px;
+}  
+
+/* News */
+
+

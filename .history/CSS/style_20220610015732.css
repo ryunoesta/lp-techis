@@ -1,0 +1,23 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+header img {
+    width: 200px;
+    display: block;
+    padding: 10px 0;
+}
+
+header ul {
+    height: 100%;
+    padding: 15px 0;
+    display: flex;
+}
+
+header ul li {
+    font-size: 16px;
+    margin: auto 25px;
+}

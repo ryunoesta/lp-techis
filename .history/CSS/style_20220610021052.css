@@ -1,0 +1,50 @@
+/* header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+header img {
+    width: 180px;
+    display: block;
+}
+
+header ul {
+    height: 100%;
+    padding: 15px 0;
+    display: flex;
+}
+
+header ul li {
+    font-size: 16px;
+    margin: auto 25px;
+}
+
+/* common */
+.common-btn {
+    display: block;
+    border-radius: 1;
+    background: #00abae;
+}
+
+
+/* fv */
+.fv {
+    position: relative;
+}
+
+.fv h1 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 50px;
+    line-height: 2;
+}
